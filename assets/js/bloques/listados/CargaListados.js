@@ -134,7 +134,7 @@ class CargaListados  {
                   script: Plantilla.rutaScriptBloques + "listados/Listado12.js?v=" + version,
                   data: {
                     nombre: "listado 12",
-                    imagen: "listados/lista12.png",
+                    imagen: "listados/lista012.png",
                     obj: function () {
                       return new Listado12();
                     },
