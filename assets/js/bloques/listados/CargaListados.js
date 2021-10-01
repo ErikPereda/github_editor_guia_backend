@@ -11,7 +11,7 @@ class CargaListados  {
                   script: Plantilla.rutaScriptBloques + "listados/Listado1.js?v=" + version,
                   data: {
                     nombre: "listado 1",
-                    imagen: "listados/lista1.png",
+                    imagen: "listados/lista001.png",
                     obj: function () {
                       return new Listado1();
                     },
@@ -22,7 +22,7 @@ class CargaListados  {
                   script: Plantilla.rutaScriptBloques + "listados/Listado2.js?v=" + version,
                   data: {
                     nombre: "listado 2",
-                    imagen: "listados/lista2.png",
+                    imagen: "listados/lista002.png",
                     obj: function () {
                       return new Listado2();
                     },
@@ -33,7 +33,7 @@ class CargaListados  {
                   script: Plantilla.rutaScriptBloques + "listados/Listado3.js?v=" + version,
                   data: {
                     nombre: "listado 3",
-                    imagen: "listados/lista3.png",
+                    imagen: "listados/lista003.png",
                     obj: function () {
                       return new Listado3();
                     },
